@@ -11,6 +11,7 @@ body {
   color: #ffffff;
   overflow-x: hidden;
   background: #25332e;
+  height: 100vh;
 }
 
 a {
@@ -127,7 +128,7 @@ footer a:visited {
 }
 
 .tm-textbox {
-  padding: 45px;
+  padding: 25px;
   font-size: 1.1rem;
   color: #c5c7c6;
   line-height: 1.8;
@@ -742,7 +743,11 @@ figure.effect-goliath:hover p {
 
 @media (max-width: 767px) {
   .tm-site-title {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  .tm-site-subtitle {
+    font-size: 1rem;
   }
 
   .tm-top-container {
@@ -762,12 +767,12 @@ figure.effect-goliath:hover p {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 100%;
+    width: 80%;
   }
 
   .tm-section-title {
     margin-left: 0;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .grid {
@@ -776,6 +781,43 @@ figure.effect-goliath:hover p {
 
   .slick-dots {
     bottom: -35px;
+  }
+
+  .tm-textbox {
+    padding: 25px;
+    font-size: 1rem;
+    color: #c5c7c6;
+    line-height: 1.8;
+  }
+
+  .contacts__phone {
+    padding-top: 0;
+  }
+
+  .contacts__wrapper {
+    padding-top: 0;
+  }
+
+  .contact__req {
+    padding: 20px;
+    padding-left: 40px;
+  }
+
+  .tm-site-header-box {
+    margin-top: -33px;
+  }
+
+  .tm-top-container {
+    display: block;
+  }
+
+  .tm-nav-link {
+    font-size: 1rem;
+  }
+
+  .slick-dots {
+    margin-bottom: 0;
+    bottom: -10px;
   }
 }
 
